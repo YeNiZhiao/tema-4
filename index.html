@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en" class="p-0 m-0 overflow-x-hidden">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dist/output.css">
+    <link rel="stylesheet" href="dist/aos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Schoolbell&display=swap" rel="stylesheet">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10/dist/sweetalert2.all.min.js"></script>
+    <noscript>
+        <style type="text/css">
+            [data-aos] {
+                opacity: 1 !important;
+                transform: translate(0) scale(1) !important;
+            }
+        </style>
+    </noscript>
+    <title>Tema 4</title>
+</head>
+
+<body class="bg-textPrimary overflow-hidden">
+    <!-- cover -->
+    <div
+        class="overflow-hidden cover flex flex-col h-screen justify-center fixed top-0 bottom-0 left-0 right-0 bg-primary z-50">
+        <img data-aos="fade-up" data-aos-duration="3000" src="img/elemen-2.png" class="absolute bottom-0 right-0 -z-10"
+            alt="">
+        <img data-aos="fade-up" data-aos-duration="3000" src="img/elemen-9.png" class="absolute left-0 bottom-0 w-3/12"
+            alt="">
+        <h1 data-aos="zoom-in-down" data-aos-duration="1000"
+            class="block p-3 overflow-hidden  font-varela relative z-50 font-semibold text-center text-textPrimary text-4xl">
+            Undangan</h1>
+        <img data-aos="zoom-in-down" data-aos-duration="1200" src="img/elemen-1.png"
+            class=" -my-9 mx-auto w-6/12 scale-75" alt="">
+        <div data-aos="zoom-in-down" data-aos-duration="1500" class="relative w-11/12  mx-auto z-10">
+            <div class="text-center font-dscript text-textPrimary text-3xl my-3">
+                <h2>Fulan & Fulanah</h2>
+            </div>
+        </div>
+        <div data-aos="zoom-in-down" data-aos-duration="2000"
+            class="mx-auto flex justify-center text-xl font-semibold items-center my-2  ">
+            <h2 class="p-2 mx-2 rounded-md text-secondary font-jost bg-textPrimary">24 Januari 2026</h2>
+        </div>
+        <h2 data-aos="zoom-in-down" data-aos-duration="2500"
+            class="text-center text-3xl overflow-hidden my-2 font-varela font-semibold text-textPrimary">Untuk <span
+                class="tujuan nama capitalize text-komponen">
+                Afif
+            </span></h2>
+        <div class="overflow-hidden" data-aos="zoom-in-down" data-aos-duration="3000">
+            <p class="overflow-hidden p-3 text-md md:text-md text-center my-1 text-textPrimary font-jost">
+                Diharapkan
+                kehadiran
+                bapak/ibu/saudara <br>
+                untuk
+                menghadiri acara
+                kami.</p>
+            <button
+                class="buka font-varela overflow-hidden buka block w-5/12 md:w-9/12 my-1 mx-auto p-2 bg-komponen text-textPrimary rounded-md hover:shadow-lg hover:bg-secondary transition-all duration-50 hover:text-komponen outline-none outline-0"><i
+                    class="far fa-envelope-open"></i> Buka
+                Undangan</button>
+        </div>
+
+    </div>
+    <!-- burger -->
+    <div
+        class="fixed bottom-4 w-10/12 left-1/2 z-30 -translate-x-1/2 bg-secondary p-2 rounded-full flex items-center justify-between">
+        <div
+            class="burger-button shadow-md  z-20 p-4 w-11 h-11 overflow-hidden hover:bg-komponen flex justify-center items-center cursor-pointer bg-primary rounded-full text-textPrimary hover:shadow-xl duration-75 transition-all">
+            <i class="burger text-lg fas fa-bars"></i>
+        </div>
+        <h2 class="font-dscript text-textPrimary text-xl">F & F</h2>
+        <!-- music -->
+        <div
+            class="music  text-textPrimary mactive shadow-md hover:bg-primary bg-komponen rounded-full  w-10 h-10 p-2 flex justify-center align-middle items-center  md:right-5 md:top-5  z-20 cursor-pointer">
+            <i class="music-icon self-center fas fa-play"></i>
+        </div>
+    </div>
+    <!-- nav -->
+    <div
+        class="nav overflow-hidden fixed w-full text-lg font-jost items-center justify-center text-textPrimary bg-komponen p-2 z-30 text-center shadow-lg flex flex-col">
+        <a class="page-scroll my-2 items-center p-2 overflow-hidden hover:bg-secondary hover:shadow-lg duration-100 transition-all rounded-md"
+            href=".pasangan"><i class="fas fa-ring items-center"></i> Pasangan</a>
+        <a class="page-scroll my-2 overflow-hidden p-2 hover:bg-secondary hover:shadow-lg duration-100 transition-all rounded-md"
+            href=".akad"><i class="fas fa-calendar"></i> Akad
+            Nikah</a>
+        <a class="page-scroll my-2 overflow-hidden p-2 hover:bg-secondary hover:shadow-lg duration-100 transition-all rounded-md"
+            href=".lokasi"> <i data-aos="fade-right" class="fas fa-map-marked-alt"></i> Lokasi</a>
+        <a class="page-scroll my-2 p-2 overflow-hidden hover:bg-secondary hover:shadow-lg duration-100 transition-all rounded-md"
+            href=".cerita"><i class="fas fa-heart"></i> Cerita</a>
+        <a class="page-scroll my-2 p-2 overflow-hidden hover:bg-secondary hover:shadow-lg duration-100 transition-all rounded-md"
+            href=".galeri"><i class="fas fa-images"></i> Galeri</a>
+        <a class="page-scroll my-2 overflow-hidden p-2 hover:bg-secondary hover:shadow-lg duration-100 transition-all rounded-md"
+            href=".pesan"><i class="fas fa-envelope-open-text"></i> Pesan Dan
+            Ucapan</a>
+    </div>
+    <audio id="player" class="hidden" controls autoplay="autoplay" allow="autoplay" muted>
+        <source src="mp3/music.mp3" type="audio/mpeg">
+    </audio>
+    <section class="min-h-screen w-full awalan">
+        <div class="min-h-screen flex justify-center items-center bg-opacity-70 min-w-full bg-textPrimary relative">
+            <img src="img/elemen-6.png" class="absolute" alt="">
+            <div class="w-11/12 mx-auto text-center font-jost text-lg overflow-hidden text-slate-90ss0">
+                <h2 class="font-jost text-2xl font-semibold overflow-hidden">اَلسَّلَامُ عَلَيْكُمْ وَرَحْمَةُ اللهِ
+                    وَبَرَكَا تُهُ</h2>
+                <h2 class="font-semibold text-2xl overflow-hidden">ِبِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيْم</h2>
+                <p class="leading-8 p-3"> "Mahasuci Allah telah menciptakan manusia dengan berpasang-pasangan. Sungguh
+                    besar
+                    rahmat dan
+                    karunia
+                    yang
+                    diberikan-Nya kepada keluarga Kami. <br> Maka izinkan Kami mengundang sekaligus mengharapkan doa
+                    restu
+                    dari
+                    bapak/ibu dalam acara pernikahan putra & putri kami."</p>
+                <img src="img/elemen-7.png" class="text-center mx-auto" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- couple -->
+    <section class="pasangan min-h-screen flex flex-col justify-center items-center">
+        <div class="w-11/12 mx-auto p-2 my-4">
+            <h2
+                class="text-center w-1/2 block mx-auto font-varela text-2xl text-textPrimary p-2 rounded-md bg-secondary">
+                <i class="fas fa-ring"></i> Pasangan
+            </h2>
+        </div>
+        <div data-aos="zoom-in" class="text-primary font-dscript my-3">
+            <img src="img/fulan.png" class="w-9/12 mx-auto " alt="">
+            <h3 class="text-center text-3xl font-chilanka font-semibold">Fulan</h3>
+            <h5 class="text-center text-md font-chilanka">Putra dari Bp. Fulan dan Ibu Fulanah
+            </h5>
+        </div>
+        <div data-aos="zoom-in" class="text-primary font-dscript my-3">
+            <img src="img/fulanah.png" class="w-9/12 mx-auto " alt="">
+            <h3 class="text-center text-3xl font-chilanka font-semibold">Fulanah</h3>
+            <h5 class="text-center text-md font-chilanka">Putri dari Bp. Fulan dan Ibu Fulanah
+            </h5>
+        </div>
+    </section>
+    <!-- waktu -->
+    <section class="akad min-h-screen flex flex-col justify-center">
+        <div class="w-11/12 mx-auto p-2 ">
+            <h2 data-aos="flip-up"
+                class="relative items-center align-middle text-center w-8/12 block mx-auto my-2 font-varela text-2xl text-textPrimary p-2 rounded-md bg-secondary shadow-lg">
+                <i class="fas fa-calendar"></i> Akad Nikah
+            </h2>
+        </div>
+        <div>
+            <div class="w-11/12 flex items-center mx-auto p-2 justify-center">
+                <div class="w-1/2 text-center text-primary">
+                    <i class="fas fa-calendar-alt text-4xl my-1"></i>
+                    <input type="text" data-aos="fade-up" class=" inline-block bg-opacity-0 text-primary outline-0 border-0 p-2 overflow-hidden font-jost
+                        text-center bg-none bg-transparent mx-auto my-2 font-comfortaa text-lg" value="24 Januari 2026"
+                        id="pilih" readonly />
+                    <i class="text-4xl fas fa-map-marker-alt my-1"></i>
+                    <h2 data-aos="fade-up" class="text-lg font-jost overflow-hidden my-1">Kediaman Mempelai Wanita</h2>
+                </div>
+                <div class="w-1/2 countdown">
+                    <div data-aos="flip-down"
+                        class="w-8/12 text-center shadow-lg mx-auto my-2 bg-komponen p-2 rounded-md">
+                        <h2 class="hari font-semibold text-xl font-jost text-textPrimary">20</h2>
+                        <h2 class="text-lg font-jost text-textPrimary">Hari</h2>
+                    </div>
+                    <div data-aos="flip-down"
+                        class="w-8/12 text-center mx-auto shadow-lg my-2 bg-komponen p-2 rounded-md">
+                        <h2 class="jam font-semibold text-xl font-jost text-textPrimary">20</h2>
+                        <h2 class="text-lg font-jost text-textPrimary">Jam</h2>
+                    </div>
+                    <div data-aos="flip-down"
+                        class="w-8/12 text-center my-2 mx-auto shadow-lg bg-komponen p-2 rounded-md">
+                        <h2 class="menit font-semibold text-xl font-jost text-textPrimary">20</h2>
+                        <h2 class="text-lg font-jost text-textPrimary">Menit</h2>
+                    </div>
+                    <div data-aos="flip-down"
+                        class="w-8/12 text-center my-2 mx-auto shadow-lg bg-komponen p-2 rounded-md">
+                        <h2 class="detik font-semibold text-xl font-jost text-textPrimary">20</h2>
+                        <h2 class="text-lg font-jost text-textPrimary">Detik</h2>
+                    </div>
+                </div>
+            </div>
+            <h2 class="cdtext hidden font-jost text-2xl text-center text-primary">Sedang Berlangsung</h2>
+            <button data-aos="flip-down" onclick="copy_text()"
+                class="simpan text-lg block w-6/12 font-chilanka p-3 shadow-md rounded-md font-jost my-3 mx-auto text-center bg-komponen text-textPrimary hover:bg-textPrimary hover:text-secondary hover:shadow-lg transition-all duration-75"><i
+                    class="fas fa-calendar-check"></i> Simpan
+                Waktu</button>
+        </div>
+    </section>
+    <!-- lokasi -->
+    <section class="lokasi min-h-screen overflow-hidden">
+        <div class="w-11/12 mx-auto">
+            <h2 data-aos="fade-right"
+                class="relative text-center w-8/12 block mx-auto my-3 font-varela text-2xl text-textPrimary p-2 rounded-md bg-secondary shadow-lg">
+                <i class="fas fa-map-marked-alt"></i> Lokasi
+            </h2>
+            <div class="text-center overflow-hidden my-2">
+                <div data-aos="fade-left" class="mapouter mx-auto rounded-lg overflow-hidden my-2">
+                    <div class="gmap_canvas rounded-md"><iframe width="300" height="300" id="gmap_canvas"
+                            src="https://maps.google.com/maps?q=desa%20surusunda%20rt%2001%20rw%2005%20kecamatan%20karangpucung%20kabupaten%20cilacap&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                            frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                            href="https://fmovies-online.net"></a><br>
+                        <style>
+                            .mapouter {
+
+                                text-align: right;
+                                height: 300px;
+                                width: 300px;
+                            }
+                        </style><a href="https://www.embedgooglemap.net">embedgooglemap.net</a>
+                        <style>
+                            .gmap_canvas {
+                                overflow: hidden;
+                                background: none !important;
+                                height: 300px;
+                                width: 300px;
+                            }
+                        </style>
+                    </div>
+                </div>
+                <div class="flex justify-center items-center my-6 border-t-2 p-3 border-primary border-dashed">
+                    <h1 data-aos="fade-down"
+                        class="p-2 bg-secondary rounded-md shadow-lg text-md font-jost text-md text-textPrimary">
+                        Desa
+                        Surusunda Rt
+                        01 Rw
+                        03
+                        <br>
+                        Kecamatan
+                        Karangpucung
+                        <br>
+                        Kabupaten
+                        Cilacap
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- cerita -->
+    <section class="cerita min-h-screen overflow-hidden">
+        <div class="w-11/12 mx-auto p-2 overflow-hidden">
+            <h2 data-aos="fade-down"
+                class="relative text-center w-8/12 block mx-auto my-3 font-varela text-2xl text-textPrimary p-2 rounded-md bg-secondary shadow-lg">
+                <i class="fas fa-heart"></i> Cerita Kami
+            </h2>
+            <!-- part cerita -->
+            <div data-aos="fade-up"
+                class="w-full my-3 z-10 bg-secondary p-4 relative rounded-md shadow-lg overflow-visible">
+                <img src="img/elemen-5.png" class="absolute z-20 scale-50 w-7/12 -right-24 -top-12" alt="">
+                <div>
+                    <h2 class="bg-komponen rounded-md text-xl my-2 font-jost
+                     text-textPrimary shadow-lg text-center">2019</h2>
+                    <h2 class="text-center bg-primary rounded-md p-2 text-textPrimary text-lg font-jost my-1
+                    ">Awal Bertemu</h2>
+                    <p class="text-justify p-2 bg-textPrimary my-2 rounded-md shadow-lg text-secondary">Lorem ipsum
+                        dolor sit
+                        amet
+                        consectetur adipisicing elit.
+                        Aut quia, eaque at incidunt provident sapiente ea eius culpa, recusandae accusamus aperiam est
+                        iure velit maxime autem ullam, exercitationem numquam ipsum?</p>
+                </div>
+            </div>
+            <div data-aos="fade-up"
+                class="w-full my-3 bg-secondary p-4 relative z-10 rounded-md shadow-lg overflow-visible">
+                <img src="img/elemen-5.png" class="absolute z-20 scale-50 w-7/12 -right-24 -top-12" alt="">
+                <div>
+                    <h2 class="bg-komponen rounded-md text-xl my-2 font-jost
+                     text-textPrimary shadow-lg text-center">2021</h2>
+                    <h2 class="text-center bg-primary rounded-md p-2 text-textPrimary text-lg font-jost my-1
+                    ">Mulai Memahami</h2>
+                    <p class="text-justify p-2 bg-textPrimary my-2 rounded-md shadow-lg text-secondary">Lorem ipsum
+                        dolor sit
+                        amet
+                        consectetur adipisicing elit.
+                        Aut quia, eaque at incidunt provident sapiente ea eius culpa, recusandae accusamus aperiam est
+                        iure velit maxime autem ullam, exercitationem numquam ipsum?</p>
+                </div>
+            </div>
+            <div data-aos="fade-up"
+                class="w-full my-3 z-10 bg-secondary p-4 relative rounded-md shadow-lg overflow-visible">
+                <img src="img/elemen-5.png" class="absolute z-20 scale-50 w-7/12 -right-24 -top-12" alt="">
+                <div>
+                    <h2 class="bg-komponen rounded-md text-xl my-2 font-jost
+                     text-textPrimary shadow-lg text-center">2022</h2>
+                    <h2 class="text-center bg-primary rounded-md p-2 text-textPrimary text-lg font-jost my-1
+                    ">Satukan Janji</h2>
+                    <p class="text-justify p-2 bg-textPrimary my-2 rounded-md shadow-lg text-secondary">Lorem ipsum
+                        dolor sit
+                        amet
+                        consectetur adipisicing elit.
+                        Aut quia, eaque at incidunt provident sapiente ea eius culpa, recusandae accusamus aperiam est
+                        iure velit maxime autem ullam, exercitationem numquam ipsum?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- galeri -->
+    <section class="galeri min-h-screen overflow-hidden">
+        <div class="w-11/12 mx-auto p-2 overflow-hidden">
+            <h2 data-aos="fade-down"
+                class="relative text-center w-8/12 block mx-auto my-3 font-varela text-2xl text-textPrimary p-2 rounded-md bg-secondary shadow-lg">
+                <i class="fas fa-images"></i> Galeri
+            </h2>
+            <div data-aos="fade-right"
+                class="overflow-hidden my-2 rounded-xl shadow-lg group duration-100 transition-all">
+                <img src="img/elemen-8.png" class="duration-100 transition-all group-hover:scale-110" alt="">
+            </div>
+            <div data-aos="fade-right"
+                class="overflow-hidden my-2 rounded-xl shadow-lg group duration-100 transition-all">
+                <img src="img/elemen-8.png" class="duration-100 transition-all group-hover:scale-110" alt="">
+            </div>
+            <div data-aos="fade-left"
+                class="overflow-hidden my-2 rounded-xl shadow-lg group duration-100 transition-all">
+                <img src="img/elemen-8.png" class="duration-100 transition-all group-hover:scale-110" alt="">
+            </div>
+            <div data-aos="fade-left"
+                class="overflow-hidden my-2 rounded-xl shadow-lg group duration-100 transition-all">
+                <img src="img/elemen-8.png" class="duration-100 transition-all group-hover:scale-110" alt="">
+            </div>
+            <div data-aos="fade-up" class="overflow-hidden my-2 rounded-xl shadow-lg group duration-100 transition-all">
+                <img src="img/elemen-8.png" class="duration-100 transition-all group-hover:scale-110" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- pesan dan kesan -->
+    <section class="pesan min-h-screen  flex flex-col justify-center items-center">
+        <div class="w-11/12 mx-auto p-2">
+            <h2
+                class="relative text-center w-8/12 block mx-auto my-3 font-varela text-2xl text-textPrimary p-2 rounded-md bg-secondary shadow-lg">
+                <i class="fas fa-envelope-open-text"></i> Pesan dan Ucapan
+            </h2>
+            <form action="" class="w-full flex flex-col">
+                <input type="text"
+                    class="p-2 text-lg rounded-md my-2 shadow-sm hover:shadow-lg duration-100 transition-all font-jost focus:shadow-lg outline-0 outline-none active:shadow-lg"
+                    placeholder="Nama Anda">
+                <select
+                    class="my-2 outline-none duration-100 transition-all outline-0 p-2 rounded-md active:shadow-lg focus:shadow-lg hover:shadow-lg text-lg font-jost">
+                    <option value="Konfirmasi Kehadiran">Konfirmasi Kehadiran</option>
+                    <option value="Hadir">Hadir</option>
+                    <option value="Tidak Hadir">Tidak Hadir</option>
+                </select>
+                <textarea
+                    class="p-2 duration-100 transition-all rounded-md text-lg font-jost my-2 hover:shadow-lg focus:shadow-lg active:shadow-lg outline-none outline-0"
+                    placeholder="Pesan Disini" name="" id="" cols="30" rows="10"></textarea>
+                <button
+                    class="p-2 my-2 text-lg font-jost bg-komponen text-textPrimary rounded-md hover:shadow-lg shadow-md focus:shadow-lg active:shadow-lg duration-100 transition-all hover:bg-secondary"><i
+                        class="fas fa-paper-plane"></i> Kirim</button>
+            </form>
+        </div>
+    </section>
+    <!-- list pesan -->
+    <section class="h-screen">
+        <div class="h-full overflow-y-scroll w-11/12 mx-auto bg-secondary p-3">
+            <div class="bg-white rounded-md shadow-lg my-3 p-2">
+                <div class="flex my-2">
+                    <p class="p-2 rounded-md text-textPrimary font-jost text-md bg-komponen">Nama</p>
+                    <p class="mx-2 bg-secondary text-textPrimary font-jost p-2 text-md rounded-md ">Hadir</p>
+                </div>
+                <p class="text-justify font-jost text-primary">Lorem ipsum dolor, sit amet consectetur adipisicing
+                    elit. Minus quam
+                    recusandae
+                    quaerat facilis
+                    quibusdam quos iure, soluta voluptatibus commodi nemo beatae animi amet. Expedita vitae doloribus
+                    minima qui repellendus facilis.</p>
+            </div>
+            <div class="bg-white rounded-md shadow-lg my-3 p-2">
+                <div class="flex my-2">
+                    <p class="p-2 rounded-md text-textPrimary font-jost text-md bg-komponen">Nama</p>
+                    <p class="mx-2 bg-secondary text-textPrimary font-jost p-2 text-md rounded-md ">Hadir</p>
+                </div>
+                <p class="text-justify font-jost text-primary">Lorem ipsum dolor, sit amet consectetur adipisicing
+                    elit. Minus quam
+                    recusandae
+                    quaerat facilis
+                    quibusdam quos iure, soluta voluptatibus commodi nemo beatae animi amet. Expedita vitae doloribus
+                    minima qui repellendus facilis.</p>
+            </div>
+            <div class="bg-white rounded-md shadow-lg my-3 p-2">
+                <div class="flex my-2">
+                    <p class="p-2 rounded-md text-textPrimary font-jost text-md bg-komponen">Nama</p>
+                    <p class="mx-2 bg-secondary text-textPrimary font-jost p-2 text-md rounded-md ">Hadir</p>
+                </div>
+                <p class="text-justify font-jost text-primary">Lorem ipsum dolor, sit amet consectetur adipisicing
+                    elit. Minus quam
+                    recusandae
+                    quaerat facilis
+                    quibusdam quos iure, soluta voluptatibus commodi nemo beatae animi amet. Expedita vitae doloribus
+                    minima qui repellendus facilis.</p>
+            </div>
+            <div class="bg-white rounded-md shadow-lg my-3 p-2">
+                <div class="flex my-2">
+                    <p class="p-2 rounded-md text-textPrimary font-jost text-md bg-komponen">Nama</p>
+                    <p class="mx-2 bg-secondary text-textPrimary font-jost p-2 text-md rounded-md ">Hadir</p>
+                </div>
+                <p class="text-justify font-jost text-primary">Lorem ipsum dolor, sit amet consectetur adipisicing
+                    elit. Minus quam
+                    recusandae
+                    quaerat facilis
+                    quibusdam quos iure, soluta voluptatibus commodi nemo beatae animi amet. Expedita vitae doloribus
+                    minima qui repellendus facilis.</p>
+            </div>
+        </div>
+    </section>
+    <section class=" text-center pb-24 font-varela text-textPrimary p-6 w-full md:pb-16 bg-komponen">
+        <h2 class="text-md"><i class="far fa-copyright"></i> 2022 Assalam Yuk Undang</h2>
+        <h2 class="text-md">Build Theme with <i class="text-red-600 fas fa-heart"></i> By <span
+                class="font-semibold">AYU</span> </h2>
+    </section>
+    <script type="text/javascript">
+        function copy_text() {
+            document.getElementById("pilih").select();
+            document.execCommand("copy");
+            Swal.fire('Tanggal Berhasil Disalin')
+        }
+    </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="js/aos.js"></script>
+    <!-- <script>
+        AOS.init();
+    </script> -->
+
+    <script src="js/musik.js"></script>
+    <script src="js/countdown.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+
+    </script>
+</body>
+
+</html>
